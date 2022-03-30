@@ -79,7 +79,7 @@ class UserDatabase {
 
   Future close() async {
     final db = await instance.database;
-
+    print("Closed");
     db.close();
   }
 }

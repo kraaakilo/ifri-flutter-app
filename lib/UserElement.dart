@@ -19,7 +19,7 @@ class UserElement extends StatelessWidget {
                 height: 80,
                 child: CircleAvatar(
                   backgroundImage: AssetImage("assets/avatar.png"),
-                  backgroundColor: Colors.white,
+                  backgroundColor: Colors.grey,
                 ),
               ),
               Expanded(
