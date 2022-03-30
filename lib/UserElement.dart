@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:ifri_management/logic/CreateUser.dart';
 
 class UserElement extends StatelessWidget {
-  final user;
+  final User user;
   const UserElement({Key? key, required this.user}) : super(key: key);
 
   @override
