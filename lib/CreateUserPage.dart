@@ -12,7 +12,7 @@ class CreateUserPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Créer un utilisateur"),
+        title: const Text("Créer un utilisateur : Nouveau"),
       ),
       body: const FormWidget(),
     );
